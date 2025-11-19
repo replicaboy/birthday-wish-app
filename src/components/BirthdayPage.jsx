@@ -5,7 +5,7 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaMusic, FaHeart, FaGift, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
-import { GiBirthdayCake } from 'react-icons/gi';
+import { FaBirthdayCake } from 'react-icons/fa';
 
 const BirthdayPage = ({ friendName }) => {
   const [showMessage, setShowMessage] = useState(false);
@@ -24,7 +24,7 @@ const BirthdayPage = ({ friendName }) => {
 
   const memories = [
     {
-      icon: <GiBirthdayCake className="text-4xl text-pink-500" />,
+      icon: <FaBirthdayCake className="text-4xl text-pink-500" />,
       title: "First Meet",
       description: "Remember when we first met? That was the beginning of an amazing friendship!",
       emoji: "🎂"
