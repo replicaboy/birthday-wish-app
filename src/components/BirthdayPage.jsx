@@ -3,7 +3,8 @@ import Confetti from 'react-confetti';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaMusic, FaHeart, FaCake, FaGift } from 'react-icons/fa';
+import { FaMusic, FaHeart, FaGift } from 'react-icons/fa';
+import { GiBirthdayCake } from 'react-icons/gi';
 import Gallery from './Gallery.jsx';
 
 const BirthdayPage = ({ friendName }) => {
