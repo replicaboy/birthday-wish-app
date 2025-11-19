@@ -219,7 +219,7 @@ const BirthdayPage = ({ friendName }) => {
             className="fixed top-20 right-6 z-50 bg-white/20 backdrop-blur-lg p-4 rounded-2xl shadow-2xl w-80"
           >
             <AudioPlayer
-              src="/music/song.mp3"
+              src="/music/music.mp3"
               autoPlay={false}
               volume={0.5}
             />
