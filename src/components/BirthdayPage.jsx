@@ -244,7 +244,7 @@ const BirthdayPage = ({ friendName }) => {
             <div className="absolute inset-0 bg-gradient-to-l from-blue-300 to-purple-400 rounded-3xl transform -rotate-3"></div>
             <div className="relative bg-white p-4 rounded-3xl shadow-2xl">
               <img
-                src="/images/photo1.jpg"
+                src="/images/photo9.jpg"
                 alt={friendName}
                 className="w-full h-auto max-h-96 object-contain rounded-2xl"
               />
