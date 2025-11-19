@@ -20,7 +20,7 @@ const BirthdayPage = ({ friendName }) => {
 
   const memories = [
     {
-      icon: <FaCake className="text-4xl text-pink-500" />,
+      icon: <GiBirthdayCake className="text-4xl text-pink-500" />,
       title: "First Meet",
       description: "Remember when we first met? That was the beginning of an amazing friendship!",
       emoji: "🎂"
