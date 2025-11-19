@@ -193,7 +193,7 @@ const BirthdayPage = ({ friendName }) => {
                 🎂 Dear Yuvraj!!, on this beautiful day, I want you to know how much you mean to me. 
                 Your friendship has brought so much joy, laughter, and warmth into my life. 
                 May this year bring you endless happiness, success, and all your dreams come true. 
-                Here's to making more amazing memories together! Have the most fantastic birthday ever! 💝✨
+                Here's to making more amazing memories together! Have the most fantastic birthday ever! 💝✨<br>
                 🩷आयुः, आरोग्यम्, ऐश्वर्यं च ते भविष्यति।😍
               </motion.p>
             </motion.div>
