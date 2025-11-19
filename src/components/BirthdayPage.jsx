@@ -194,7 +194,7 @@ const BirthdayPage = ({ friendName }) => {
                 Your friendship has brought so much joy, laughter, and warmth into my life. 
                 May this year bring you endless happiness, success, and all your dreams come true. 
                 Here's to making more amazing memories together! Have the most fantastic birthday ever! 💝✨<br>
-                🩷आयुः, आरोग्यम्, ऐश्वर्यं च ते भविष्यति।😍
+                🩷आयुः, आरोग्यम्, ऐश्वर्यं च ते भविष्यति।😍</br>
               </motion.p>
             </motion.div>
           )}
