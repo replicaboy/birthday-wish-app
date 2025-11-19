@@ -246,7 +246,7 @@ const BirthdayPage = ({ friendName }) => {
               <img
                 src="/images/photo1.jpg"
                 alt={friendName}
-                className="w-full h-96 object-cover rounded-2xl"
+                className="w-full h-96 object-contain rounded-2xl bg-white"
               />
             </div>
           </div>
