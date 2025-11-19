@@ -48,23 +48,23 @@ const BirthdayPage = ({ friendName }) => {
     }
   ];
 
-  const photos = [
-    { url: '/public/images/photo1.jpg', caption: 'Beautiful Memory 1' },
-    { url: '/public/images/photo2.jpg', caption: 'Beautiful Memory 2' },
-    { url: '/public/images/photo3.jpg', caption: 'Beautiful Memory 3' },
-    { url: '/public/images/photo4.jpg', caption: 'Beautiful Memory 4' },
-    { url: '/public/images/photo5.jpg', caption: 'Beautiful Memory 5' },
-    { url: '/public/images/photo6.jpg', caption: 'Beautiful Memory 6' },
-    { url: '/public/images/photo7.jpg', caption: 'Beautiful Memory 7' },
-    { url: '/public/images/photo8.jpg', caption: 'Beautiful Memory 8' },
-    { url: '/public/images/photo9.jpg', caption: 'Beautiful Memory 9' },
-    { url: '/public/images/photo10.jpg', caption: 'Beautiful Memory 10' },
-    { url: '/public/images/photo11.jpg', caption: 'Beautiful Memory 11' },
-    { url: '/public/images/photo12.jpg', caption: 'Beautiful Memory 12' },
-    { url: '/public/images/photo13.jpg', caption: 'Beautiful Memory 13' },
-    { url: '/public/images/photo14.jpg', caption: 'Beautiful Memory 14' },
-    { url: '/public/images/photo15.jpg', caption: 'Beautiful Memory 15' }
-  ];
+ const photos = [
+  { url: '/images/photo1.jpg', caption: 'Beautiful Memory 1' },
+  { url: '/images/photo2.jpg', caption: 'Beautiful Memory 2' },
+  { url: '/images/photo3.jpg', caption: 'Beautiful Memory 3' },
+  { url: '/images/photo4.jpg', caption: 'Beautiful Memory 4' },
+  { url: '/images/photo5.jpg', caption: 'Beautiful Memory 5' },
+  { url: '/images/photo6.jpg', caption: 'Beautiful Memory 6' },
+  { url: '/images/photo7.jpg', caption: 'Beautiful Memory 7' },
+  { url: '/images/photo8.jpg', caption: 'Beautiful Memory 8' },
+  { url: '/images/photo9.jpg', caption: 'Beautiful Memory 9' },
+  { url: '/images/photo10.jpg', caption: 'Beautiful Memory 10' },
+  { url: '/images/photo11.jpg', caption: 'Beautiful Memory 11' },
+  { url: '/images/photo12.jpg', caption: 'Beautiful Memory 12' },
+  { url: '/images/photo13.jpg', caption: 'Beautiful Memory 13' },
+  { url: '/images/photo14.jpg', caption: 'Beautiful Memory 14' },
+  { url: '/images/photo15.jpg', caption: 'Beautiful Memory 15' }
+];
 
   React.useEffect(() => {
     if (!autoPlay) return;
@@ -243,7 +243,7 @@ const BirthdayPage = ({ friendName }) => {
             <div className="absolute inset-0 bg-gradient-to-l from-blue-300 to-purple-400 rounded-3xl transform -rotate-3"></div>
             <div className="relative bg-white p-4 rounded-3xl shadow-2xl">
               <img
-                src="/public/images/photo1.jpg"
+                src="/images/photo1.jpg"
                 alt={friendName}
                 className="w-full h-96 object-cover rounded-2xl"
               />
